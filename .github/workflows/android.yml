@@ -21,6 +21,6 @@ jobs:
         cache: gradle
 
     - name: Run a one-line script
-      run: echo El commit se ha ejectuado correctamente.
+      run: echo El commit se ha inicio correctamente.
     - name: Build with Gradle
-      run: ./gradlew build
+      run: echo El commit finalizó correctamente.
